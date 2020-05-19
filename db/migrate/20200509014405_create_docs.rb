@@ -4,7 +4,7 @@ class CreateDocs < ActiveRecord::Migration[6.0]
       t.string :title
       t.text :context
 
-      t.timestamps
+      t.timestamps null:false
     end
   end
 end

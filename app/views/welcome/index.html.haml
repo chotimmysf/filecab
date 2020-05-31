@@ -1,2 +1,18 @@
-%h1 Welcome to FileCab, an online app like Google Docs.
-%p We'll keep your diaries safe from your siblings and friends.
+#banner
+.banner_content
+%h1 Welcome to FileCab.
+%p Keep your secrets safe in this obscure Google Docs like web app.
+%button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+            %h2 Organize
+            %p Here you can organize your stuff here. I suck at typing properly.
+
+#bottom_cta
+    .wrapper
+        %h2 Stay Secured.
+        %br
+        %button= link_to "Join Now", new_user_registration_path
